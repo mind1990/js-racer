@@ -13,14 +13,14 @@ window.onload = function () {
 
 
 //Players start positions
-var player1Position = 0;
-var player2Position = 0;
+let player1Position = 0;
+let player2Position = 0;
 
 
 document.addEventListener("keydown", function(event) {
-  var player1 = document.querySelector(".player1");
-  var player2 = document.querySelector(".player2");
-  var keydown = event.which;
+  let player1 = document.querySelector(".player1");
+  let player2 = document.querySelector(".player2");
+  let keydown = event.which;
   
   if (keydown === 90) {
     player1Position += 10;  
